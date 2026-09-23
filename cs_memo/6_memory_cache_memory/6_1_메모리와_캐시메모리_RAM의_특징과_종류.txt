@@ -35,9 +35,9 @@
         => 클럭 타이밍에 맞춰 CPU와 정보를 주고받을 수 있습니다.
     
     3-4. DDR SDRAM (Double Data Rate SDRAM)
-        => 대역폭을 넓혀 속도를 빠르게 만든 SRAM입니다.
+        => 대역폭을 넓혀 속도를 빠르게 만든 SDRAM입니다.
             => 대역폭 : 데이터를 주고받는 길의 너비
-        => 한 클럭에 한 번씩 CUP와 데이터를 주고 받는 SDRAM / 한 클럭에 두번 씩 CPU와 데이터를 주고 받는 SDRAM입니다.
-        => DDR SRAM의 전송 속도가 두 배가량 빠릅니다.
+        => 한 클럭에 한 번씩 CUP와 데이터를 주고 받는 SDRAM / 한 클럭에 두번 씩 CPU와 데이터를 주고 받는 DDR SDRAM입니다.
+        => DDR SDRAM의 전송 속도가 두 배가량 빠릅니다.
         => 한 클럭당 하나씩 데이터를 주고받을 수 있는 SDRAM을 SDR SDRAM (Single Data Rate SDRAM)이라고 합니다.
         => DDR2, DDR4 -> 대역폭이 두 배로 증가합니다. -> SDR SDRAM은 하나일 떄 DDR2 SDRAM은 4개입니다.
