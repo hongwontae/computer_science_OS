@@ -1,0 +1,8 @@
+# 1. C 코드에서 어셈블리어 생성
+gcc -S main.c -o main.s
+
+# 2. 어셈블리어에서 목적 파일 생성
+gcc -c main.s -o main.o
+
+# 3. 목적 파일을 링킹하여 실행 파일 생성
+gcc main.o -o main
